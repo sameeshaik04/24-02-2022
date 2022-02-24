@@ -1,0 +1,13 @@
+#program to print odd and even numbers from the list seperatley.
+x=input()
+l=x
+n=len(l)
+o=[]
+e=[]
+for i in range(n):
+    j=i+1
+    if j%2==0:
+        e.append(l[i])
+    else:
+        o.append(l[i])
+print(o,e)
