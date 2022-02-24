@@ -2,12 +2,12 @@
 x=input()
 l=x
 n=len(l)
-o=[]
-e=[]
+odd=[]
+even=[]
 for i in range(n):
     j=i+1
     if j%2==0:
-        e.append(l[i])
+        even.append(l[i])
     else:
-        o.append(l[i])
-print(o,e)
+        odd.append(l[i])
+print(odd,even)
